@@ -1,0 +1,22 @@
+{
+   "metadata":{
+      "version":"1"
+   },
+   "templates":[
+      {
+         "path":"kubernetes/java-hello-world",
+         "name":"Hello World",
+         "description":"Copy of the k8s hello world sample app",
+         "languages":[
+            "java"
+         ]
+      },
+      {
+         "path":"notes/folder1",
+         "name":"Notes",
+         "description":"random notes...",
+         "languages":[
+         ]
+      }
+   ]
+}
