@@ -3,8 +3,8 @@
 This repository is an example Custom Template Repository that can be used with the Cloud Code plugins for VSCode and IntelliJ. To see detailed infomration about how to work with template repositories, visit our [documentation page](https://docs.google.com/document/d/1osOg8ch_b2F_eOGJzKsutPUbLeQCKO96Llq1v5DQ8j4/edit?usp=sharing).
 
 ## Contents
-### .template
-The .template directory is where your templates.json file belongs. This file describes the contents of your repository so that Cloud Code knows where to look for your templates. It should look something like the following:
+### .cctemplate
+The .cctemplate file belongs in the root of your project. This file describes the contents of your repository so that Cloud Code knows where to look for your templates. It should look something like the following:
 ```
 {
     "metadata": {
@@ -21,10 +21,10 @@ The .template directory is where your templates.json file belongs. This file des
     ]
 }
 ```
-There is an example templates.json file in the .template directory of this repository that you can review.
+There is an example .cctemplate in the root directory of this repository that you can review.
 
 ### hello-world
-A sample golang template. You can see an entry for this template in the .templates/templates.json file.
+A sample golang template. You can see an entry for this template in the .cctemplate file.
 
 ## Usage
 To see an example of how the Custom Templates feature of Cloud Code works, you can configure your IDE to recognize this repository and create applications based on the templates within. Follow the steps below to see Custom Templates in action!
