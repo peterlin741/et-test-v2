@@ -1,3 +1,5 @@
+Test 2
+
 # Example Custom Template Repository
 ## Description
 This repository is an example Custom Template Repository that can be used with the Cloud Code plugins for VSCode and IntelliJ. To see detailed infomration about how to work with template repositories, visit our [documentation page](https://docs.google.com/document/d/1osOg8ch_b2F_eOGJzKsutPUbLeQCKO96Llq1v5DQ8j4/edit?usp=sharing).
